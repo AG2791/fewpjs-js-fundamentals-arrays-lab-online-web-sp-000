@@ -7,5 +7,5 @@ const append = ['Milo', 'Otis', 'Garfield'];
  
  append.push('Odie')
  prepend.unshift('odies')
-removeLast.pop(removeLast.length -1)
-removeLast.
+removeLast.pop(-1)
+removeFirst.shift(0)
